@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #FCA311;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Page-Specific Styles */
+
+/* Add specific styles for pages that require adjustments */
+
+
+
+#navbar_custom{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 70px;
+
+    
+}
+
+#nav_link_custom ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#nav_link_custom ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #121212;
+
+}
+
+#nav_link_custom{
+    margin: 0 3% 0 3%;
+}
+
+.nav-icons ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.nav-icons ul li a{
+    text-decoration: none;
+
+}
+
+/* .nav-icons ul li img{
+    width: 30px;
+    height: 30px;
+
+} */
+
+
+.nav-search form{
+    
+    border-radius: 25px;
+    position: relative;
+}
+
+
+
+.nav-search form input{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+    background: #E3E3E3;
+}
+
+.nav-search form input:focus{
+    outline: none;
+}
+.nav-search form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.nav-search form button i{
+    color: rgb(93, 94, 95);
+}
+
+.nav-search form button:hover i{
+    color: rgb(162, 163, 163);
+}
+
+ /* Ensure the map container has dimensions */
+ #map {
+    height: 400px;
+    display: none;
+    /* Hide the map initially */
+}
+
+#closeMapButton {
+
+    display: none;
+    /* Hide the button initially */
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    /* Adjust this value based on your layout */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-right: 50px;
+
+
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}

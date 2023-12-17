@@ -1,0 +1,130 @@
+.img-icon {
+    width: 60px;
+    /* Set your desired width */
+    height: 60px;
+    /* Set your desired height */
+    /* Add any additional styles here */
+
+}
+
+.custom-image {
+    border: 2px solid #F99417;
+    border-radius: 200px;
+    padding: 10px;
+    height: 300px;
+    width: 600px;
+}
+
+.custom-btn {
+    background-color: #F99417;
+    /* Set your desired color */
+    color: #FFFFFF;
+    /* Set the text color */
+    height: 50px;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.custom-icon .fa-regular.fa-circle-check {
+    color: #F99417;
+    /* Set your desired icon color */
+}
+
+.custom-navbar {
+    background-color: #e5e5e5;
+    /* Set your desired background color */
+    height: 90px;
+}
+
+.custom-input {
+    color: #e5e5e51d;
+    /* Set your desired text color */
+    background-color: #ececec71;
+    /* Set your desired background color */
+    /* You can customize other styles as needed */
+    border-radius: 20px;
+    height: 50px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.custom-content {
+    /* Add your styles for content here */
+    margin-top: 600px;
+    /* Increase the margin-top value to move the content further down */
+}
+
+.half-circle {
+
+
+    width: 700px;
+    height: 350px;
+    background: #F99417;
+    border-radius: 700px 700px 0 0;
+    right: -150px;
+    position: absolute;
+    display: flex;
+
+}
+
+
+/* .container {
+      max-width: 1000px;
+      max-height: 200px; /* Set your desired maximum width */
+/* padding: 20px; /* Add padding to adjust the spacing inside the container */
+
+.custom-input::placeholder {
+    font-family: 'Your Custom Font', sans-serif;
+    /* Replace 'Your Custom Font' with the font name you want to use */
+    /* Set the font style, e.g., italic */
+    font-size: 16px;
+    /* Set the font size as needed */
+    color: #999;
+    /* Set the color for the placeholder text */
+}
+
+/* Custom card background */
+.bg-custom {
+    background-color: #ffffff;
+    /* Set the background color to white */
+    border: none;
+    /* Remove the default border */
+    border-radius: 10px;
+    /* Add border radius for rounded corners */
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    justify-items: center;
+    height: 200px;
+    border-top: 4px solid #F99417;
+    align-items: center;
+}
+
+/* Custom card title and text color */
+.text-custom {
+    color: black;
+    /* Set your desired text color */
+}
+
+.bg-custom-footer {
+    background-color: #F99417;
+    /* Set the desired background color for the footer */
+    color: #ffffff;
+    /* Set the text color for the footer */
+    padding: 10px;
+    /* Add padding to the footer for spacing */
+    width: 100%;
+    font-weight: 100;
+    font-size: small;
+}
+
+.my-custom-margin {
+    margin: 250px;
+}
+.nav-item{
+    margin-right: 50px;
+    font-weight: bold;
+  }

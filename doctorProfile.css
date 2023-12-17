@@ -1,0 +1,125 @@
+body{
+    /* background-color: aqua;
+    position: relative; */
+    font-family: 'Poppins', sans-serif;
+}
+.maindiv{
+
+    width: 1900px;
+    height: 520px;
+    /* background-color: black; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+    
+   
+
+}
+.nav{
+
+    width: 100%;
+    height: 100px;
+    background-color: #FCA311
+
+
+}
+.main{
+
+    width: 100%;
+    height: 775px;
+    background-color: #F5F5F5;
+    margin-top: 10px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+}
+.div1{
+    width: 100%;
+    height: 500px ;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    display: inline;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.div2, .div3, .div4{
+    width: 100%;
+    height: 80px ;
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.left, .right{
+    width: 50%;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 90px;
+    gap:5px
+    
+    
+
+
+}
+
+.div5{
+    width: 90%;
+    height: 70px ;
+    /* background-color: rgb(95, 141, 125); */
+    margin-top: 250px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap:10px
+    
+    
+
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #6B6767;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: #FCA311;
+    color: white;
+
+}
+
+.input{
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #e3e3e3;
+    position: relative;
+    
+}
+.pimg{
+    position: absolute;
+    left: 650px;
+    top: 435px;
+}
+.input .sp{
+    position: absolute;
+   margin-left: 50px;
+}
+
+.foot{
+    width: 100%;
+    height: 80px;
+    background-color: #FCA311;
+   
+
+
+}
